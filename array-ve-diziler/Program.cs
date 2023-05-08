@@ -1,44 +1,59 @@
-﻿internal class Program
+﻿using System.CodeDom.Compiler;
+using System.Collections.Generic;
+using System.Collections;
+using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.Serialization;
+using System.Text.RegularExpressions;
+using System.Text;
+using System;
+
+class Result
 {
-    private static void Main(string[] args)
+
+    /*
+     * Complete the 'compareTriplets' function below.
+     *
+     * The function is expected to return an INTEGER_ARRAY.
+     * The function accepts following parameters:
+     *  1. INTEGER_ARRAY a
+     *  2. INTEGER_ARRAY b
+     */
+
+    public static List<int> compareTriplets(List<int> a, List<int> b)
     {
-        int[] sayiDizisi = {2,4,6,8,23,12,68,34,1};
-        
-        Console.WriteLine("******* Sırasız dizi *******");
-        foreach (var sayi in sayiDizisi)
-            Console.WriteLine(sayi);
-        
-        // Sort
-        Console.WriteLine("******* Sıralı dizi *******");
-        Array.Sort(sayiDizisi);
-        // Dizi elemanlarını büyükten küçüğe sıralar.
-        foreach (var sayi in sayiDizisi)
-            Console.WriteLine(sayi);
+        List<int> score = {0, 0};
+        for (int i = 0; i <= 2; i++) {
+            if (a[i] > b[i])
+                score[1]++;
+            else if (a[i] < b[i])
+                score[2]++;
+        }
+        return score;
 
-        // Clear
-        Console.WriteLine("******* Array Clear *******");
-        Array.Clear(sayiDizisi, 3, 3);
-        // 3. indexten başlayarak 3 elemana sıfır değeri atar.
-        foreach (var sayi in sayiDizisi)
-            Console.WriteLine(sayi);
-            
-        // Reverse 
-        Console.WriteLine("******* Array Reverse *******");
-        Array.Reverse(sayiDizisi);
-        // Dizi elemanlarını tersine çevirir.
-        foreach (var sayi in sayiDizisi)
-            Console.WriteLine(sayi);
+    }
 
-        // IndexOf   
-        Console.WriteLine("******* Array IndexOf *******"); 
-        Console.WriteLine(Array.IndexOf(sayiDizisi, 23));
-        
-        // Resize
-        Console.WriteLine("******* Array Resize *******"); 
-        Array.Resize<int>(ref sayiDizisi, 10);
-        sayiDizisi[9] = 99;
-        
-        foreach (var sayi in sayiDizisi)
-            Console.WriteLine(sayi);
+}
+
+class Solution
+{
+    public static void Main(string[] args)
+    {
+        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+        List<int> a = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(aTemp => Convert.ToInt32(aTemp)).ToList();
+
+        List<int> b = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(bTemp => Convert.ToInt32(bTemp)).ToList();
+
+        List<int> result = Result.compareTriplets(a, b);
+
+        textWriter.WriteLine(String.Join(" ", result));
+
+        textWriter.Flush();
+        textWriter.Close();
     }
 }
