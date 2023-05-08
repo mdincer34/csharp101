@@ -1,0 +1,15 @@
+C:\Users\musta\Desktop\c#\array-ve-diziler\bin\Debug\net7.0\array-ve-diziler.exe
+C:\Users\musta\Desktop\c#\array-ve-diziler\bin\Debug\net7.0\array-ve-diziler.deps.json
+C:\Users\musta\Desktop\c#\array-ve-diziler\bin\Debug\net7.0\array-ve-diziler.runtimeconfig.json
+C:\Users\musta\Desktop\c#\array-ve-diziler\bin\Debug\net7.0\array-ve-diziler.dll
+C:\Users\musta\Desktop\c#\array-ve-diziler\bin\Debug\net7.0\array-ve-diziler.pdb
+C:\Users\musta\Desktop\c#\array-ve-diziler\obj\Debug\net7.0\array-ve-diziler.csproj.AssemblyReference.cache
+C:\Users\musta\Desktop\c#\array-ve-diziler\obj\Debug\net7.0\array-ve-diziler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musta\Desktop\c#\array-ve-diziler\obj\Debug\net7.0\array-ve-diziler.AssemblyInfoInputs.cache
+C:\Users\musta\Desktop\c#\array-ve-diziler\obj\Debug\net7.0\array-ve-diziler.AssemblyInfo.cs
+C:\Users\musta\Desktop\c#\array-ve-diziler\obj\Debug\net7.0\array-ve-diziler.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\c#\array-ve-diziler\obj\Debug\net7.0\array-ve-diziler.dll
+C:\Users\musta\Desktop\c#\array-ve-diziler\obj\Debug\net7.0\refint\array-ve-diziler.dll
+C:\Users\musta\Desktop\c#\array-ve-diziler\obj\Debug\net7.0\array-ve-diziler.pdb
+C:\Users\musta\Desktop\c#\array-ve-diziler\obj\Debug\net7.0\array-ve-diziler.genruntimeconfig.cache
+C:\Users\musta\Desktop\c#\array-ve-diziler\obj\Debug\net7.0\ref\array-ve-diziler.dll
