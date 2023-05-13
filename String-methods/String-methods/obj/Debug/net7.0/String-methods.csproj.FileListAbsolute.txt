@@ -1,0 +1,15 @@
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\bin\Debug\net7.0\String-methods.exe
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\bin\Debug\net7.0\String-methods.deps.json
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\bin\Debug\net7.0\String-methods.runtimeconfig.json
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\bin\Debug\net7.0\String-methods.dll
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\bin\Debug\net7.0\String-methods.pdb
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\obj\Debug\net7.0\String-methods.csproj.AssemblyReference.cache
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\obj\Debug\net7.0\String-methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\obj\Debug\net7.0\String-methods.AssemblyInfoInputs.cache
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\obj\Debug\net7.0\String-methods.AssemblyInfo.cs
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\obj\Debug\net7.0\String-methods.csproj.CoreCompileInputs.cache
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\obj\Debug\net7.0\String-methods.dll
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\obj\Debug\net7.0\refint\String-methods.dll
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\obj\Debug\net7.0\String-methods.pdb
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\obj\Debug\net7.0\String-methods.genruntimeconfig.cache
+C:\Users\musta\RiderProjects\c#\String-methods\String-methods\obj\Debug\net7.0\ref\String-methods.dll
