@@ -96,16 +96,9 @@ internal class Program
         Console.Write($"Cümleyi giriniz : ");
         string sentence = Console.ReadLine()!;
         string[] wordsInSentence = sentence.Split(" ");
-        int wordCount = 0;
-        int totalCharCount = 0;
-        foreach (var words in wordsInSentence)
-        {
-            wordCount++;
-            foreach (var chars in words)
-            {
-                totalCharCount++;
-            }
-        }
+        int wordCount = wordsInSentence.Length;
+        int totalCharCount = string.Join("", wordsInSentence).Length;
         Console.WriteLine($"Toplam kelime sayısı : {wordCount}\nToplam karakter sayısı : {totalCharCount}");
+
     }
 }
